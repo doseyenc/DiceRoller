@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageTwo: UIImageView!
     
     private var diceNumberOne = 1
-    private var diceNumberTwo = 2
+    private var diceNumberTwo = 1
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
