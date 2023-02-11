@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,20 +13,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DiceRoller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="M28-uE-Du2">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Zjx-g4-ued">
-                                <rect key="frame" x="98.666666666666686" y="134" width="196" height="128"/>
+                                <rect key="frame" x="109" y="123" width="196" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="4IS-4h-h2X"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="idr-nC-1AJ">
-                                <rect key="frame" x="50" y="366" width="120" height="120"/>
+                                <rect key="frame" x="50" y="388" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="iuk-hL-HYX"/>
                                     <constraint firstAttribute="height" constant="120" id="r1q-Gt-w5A"/>
@@ -38,7 +38,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="i6Z-Qc-35O">
-                                <rect key="frame" x="223" y="366" width="120" height="120"/>
+                                <rect key="frame" x="244" y="388" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="Duj-A2-csB"/>
                                     <constraint firstAttribute="height" constant="120" id="o2X-hh-MG1"/>
@@ -50,7 +50,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lA4-A7-SR3">
-                                <rect key="frame" x="146.66666666666666" y="643" width="100" height="45"/>
+                                <rect key="frame" x="157" y="687" width="100" height="45"/>
                                 <color key="backgroundColor" red="0.55686277149999996" green="0.1607843041" blue="0.14901961389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="cn7-kS-NzM"/>
@@ -82,11 +82,13 @@
                             <constraint firstItem="M28-uE-Du2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LSm-ct-FQB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i6Z-Qc-35O" secondAttribute="trailing" constant="50" id="Nzn-TD-iNh"/>
                             <constraint firstItem="M28-uE-Du2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Pwm-6k-00y"/>
+                            <constraint firstItem="idr-nC-1AJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="VsV-Mi-xu2"/>
                             <constraint firstItem="i6Z-Qc-35O" firstAttribute="bottom" secondItem="idr-nC-1AJ" secondAttribute="bottom" id="Y23-J9-Q45"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lA4-A7-SR3" secondAttribute="bottom" constant="130" id="ah7-0h-ppP"/>
                             <constraint firstItem="idr-nC-1AJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fyr-wZ-OmE"/>
                             <constraint firstItem="Zjx-g4-ued" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="iV5-SF-WuB"/>
                             <constraint firstItem="Zjx-g4-ued" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xlr-vi-Vv4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i6Z-Qc-35O" secondAttribute="trailing" constant="50" id="yo7-2w-JPT"/>
                         </constraints>
                     </view>
                     <connections>
@@ -102,7 +104,7 @@
     <resources>
         <image name="1" width="100" height="100"/>
         <image name="DiceeLogo" width="196" height="128"/>
-        <image name="GreenBackground" width="444.66665649414062" height="414.33334350585938"/>
+        <image name="GreenBackground" width="444.5" height="414"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
